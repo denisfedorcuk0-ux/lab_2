@@ -1,13 +1,11 @@
 
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
 
     public static void main(String[] args) {
-        String inputString = "Hello, my dear friend! This is a simple test, isn't it? "
-                + "Java matches perfectly. OneWord. Go!";
+        String inputString = "Java programming opens up a lot of possibilities. It allows you to create efficient algorithms. It is very useful for processing text data.";
 
         try {
             System.out.println("--- Оригінальний текст ---");
@@ -46,6 +44,7 @@ public class Main {
         return finalResult;
     }
 
+    @SuppressWarnings("Convert2String")
     private static StringBuffer swapFirstAndLastWords(StringBuffer sentence) {
         Pattern wordPattern = Pattern.compile("[a-zA-Z0-9]+");
         Matcher wordMatcher = wordPattern.matcher(sentence);
