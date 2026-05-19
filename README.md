@@ -26,3 +26,7 @@
 5. Змінений текст виводиться в консоль у методі 'main' через System.out.println().
 
 ## Відео роботи програми
+
+
+https://github.com/user-attachments/assets/afedeafe-a243-4760-b7f9-bb806ea05989
+
